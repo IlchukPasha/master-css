@@ -1,0 +1,21 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+  box-sizing: inherit; /* every element inherit box-sizing from parent*/
+}
+
+html {
+  /* do this for easy responsive control, then convert all px to rem */
+  /* 1rem = root font-size, so 1 rem = 10px, it`s not only for font sizes? also for paddings */
+  /* font-size: 10px; */
+  /* better practise is use % */
+  /* 10(neede value in pixels) / 16(default browser value in pixels) * 100 */
+  font-size: 62.5%; /* 62.5 percent from default browser value(16px) */
+}
+
+body {
+  box-sizing: border-box;
+}
