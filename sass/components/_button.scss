@@ -5,7 +5,7 @@
     text-decoration: none;
     padding: 1.5rem 4rem;
     display: inline-block; /* always do this for inline elements if we want to give some hight width or paddings */
-    /* idisplay: inline-block does not add a line-break after the element if compare to display:block */
+    /* display: inline-block does not add a line-break after the element if compare to display:block */
     border-radius: 10rem;
     transition: all .2s;
     position: relative;
